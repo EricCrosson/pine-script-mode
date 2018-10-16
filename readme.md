@@ -9,7 +9,7 @@ From [MELPA](https://melpa.org/)
 ```lisp
 (use-package pine-script-mode
   :ensure t
-  :mode ("\\.pro\\'" "\\.pri\\'"))
+  :mode ("\\.pine\\'"))
 ```
 
 Or manually
