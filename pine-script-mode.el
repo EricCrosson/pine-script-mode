@@ -45,6 +45,7 @@
 
 ;; TODO: # is acting as comment, remove this functionality
 ;; TODO: syntax-highlighting for c-style comments (//)
+
 (defvar pine-script-mode-syntax-table
   (let ((st (make-syntax-table)))
     (modify-syntax-entry ?# "<" st)
