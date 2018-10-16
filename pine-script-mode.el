@@ -1,6 +1,6 @@
 ;;; pine-script-mode.el --- Trading View Pine Script major mode
 ;;
-;;; Copyright (C) 2007  Free Software Foundation, Inc.
+;;; Copyright (C) 2018  Free Software Foundation, Inc.
 ;;
 ;;; Author: Eric Crosson <eric.s.crosson@utexas.edu>
 ;; Version: 1.0.0
@@ -25,10 +25,6 @@
 ;;; Commentary:
 ;;
 ;; Provides a major-mode for editing Trading View Pine script files.
-;;
-;;; Version 1.0 (7 January 2007)
-;;
-;; Based off simple.el
 ;;
 ;; Add the following to your .emacs to install:
 ;;
