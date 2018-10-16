@@ -45,6 +45,7 @@
 
 ;; TODO: # is acting as comment, remove this functionality
 ;; TODO: syntax-highlighting for c-style comments (//)
+;; TODO: syntax operators like '?' and '+'
 
 (defvar pine-script-mode-syntax-table
   (let ((st (make-syntax-table)))
@@ -119,8 +120,6 @@
      (0 font-lock-keyword-face)))
   "Keyword highlighting specification for `pine-script-mode'.")
 
-;; TODO: comments aren't working
-;; TODO: syntax operators like '?' and '+'
 ;;;###autoload
 (define-derived-mode pine-script-mode prog-mode "Pine"
   "A major mode for editing Trading View Pine scripts."
