@@ -1,15 +1,17 @@
-# pine-script-mode [![Build Status](https://travis-ci.org/EricCrosson/pine-script-mode.svg?branch=master)](https://travis-ci.org/EricCrosson/pine-script-mode) [![MELPA](https://melpa.org/packages/pine-script-mode-badge.svg)](https://melpa.org/#/pine-script-mode)
+# pine-script-mode [![Build Status](https://travis-ci.org/EricCrosson/pine-script-mode.svg?branch=master)](https://travis-ci.org/EricCrosson/pine-script-mode)
 
 > GNU Emacs major-mode for [Trading View](https://tradingview.com) Pine script
 
 ## Install
 
-From [MELPA](https://melpa.org/)
+With `use-package`
 
 ```lisp
-(use-package pine-script-mode
-  :ensure t
-  :mode ("\\.pine\\'"))
+  (use-package pine-script-mode
+      :quelpa
+        (pine-script-mode :fetcher github
+                       :repo "ericcrosson/pine-script-mode")
+    :mode (("\\.pine" . pine-script-mode)))
 ```
 
 Or manually
