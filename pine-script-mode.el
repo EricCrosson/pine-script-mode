@@ -6,6 +6,7 @@
 ;; Version: 1.0.0
 ;; Keywords: extensions
 ;; Package-Requires: ((emacs "24"))
+;; URL: https://github.com/ericcrosson/pine-script-mode
 ;;
 ;; This file is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
