@@ -7,14 +7,12 @@
 With `use-package`
 
 ```lisp
-  (use-package pine-script-mode
-      :quelpa
-        (pine-script-mode :fetcher github
-                       :repo "ericcrosson/pine-script-mode")
-    :mode (("\\.pine" . pine-script-mode)))
+(use-package pine-script-mode
+  :ensure t
+  :mode (("\\.pine" . pine-script-mode)))
 ```
 
-Or manually
+Or manually, after downloading into your `load-path`
 
 ```lisp
 (require 'pine-script-mode)
