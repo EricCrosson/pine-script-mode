@@ -41,8 +41,9 @@
 
 (defvar pine-script-mode-syntax-table
   (let ((st (make-syntax-table)))
-    (modify-syntax-entry ?# "<" st)
-    (modify-syntax-entry ?\n ">" st)
+    ;; C++ style comment “// …”
+    (modify-syntax-entry ?\/ ". 12b" st)
+    (modify-syntax-entry ?\n "> b" st)
     st)
   "Syntax table for `pine-script-mode'.")
 
@@ -116,7 +117,7 @@
 (define-derived-mode pine-script-mode prog-mode "Pine"
   "A major mode for editing Trading View Pine scripts."
   (set (make-local-variable 'comment-start) "//")
-  (set (make-local-variable 'comment-start-skip) "//+\\s-*")
+  (set (make-local-variable 'comment-start-skip) "//+ *")
   (set (make-local-variable 'font-lock-defaults) '(pine-script-font-lock-keywords)))
 
 
