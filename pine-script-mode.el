@@ -40,11 +40,13 @@
 ;;; Code:
 
 (defvar pine-script-mode-syntax-table
-  (let ((st (make-syntax-table)))
+  (let ((table (make-syntax-table)))
     ;; C++ style comment “// …”
-    (modify-syntax-entry ?\/ ". 12b" st)
-    (modify-syntax-entry ?\n "> b" st)
-    st)
+    (modify-syntax-entry ?\/ ". 12b" table)
+    (modify-syntax-entry ?\n "> b" table)
+    ;; Single-quotes count as strings
+    (modify-syntax-entry ?' "\"" table)
+    table)
   "Syntax table for `pine-script-mode'.")
 
 (defvar pine-script-font-lock-keywords
