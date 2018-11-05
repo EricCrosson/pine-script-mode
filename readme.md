@@ -24,7 +24,7 @@ Or manually, after downloading into your `load-path`
 Here is a buffer displaying the script
 [CM\_Pivot\_Points\_Custom](https://www.tradingview.com/script/8J7SSNmo-CM-Pivot-Points-Custom/).
 
-![Rendered example](https://raw.githubusercontent.com/EricCrosson/pine-script-mode/add-demo-to-readme/img/demo.png)
+![Rendered example](https://raw.githubusercontent.com/EricCrosson/pine-script-mode/master/img/demo.png)
 
 The buffer in this image is also using
 
