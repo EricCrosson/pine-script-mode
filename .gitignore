@@ -1,2 +1,3 @@
 *.elc
 /pine/
+.DS_Store
