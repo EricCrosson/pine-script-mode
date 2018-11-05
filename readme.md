@@ -1,6 +1,6 @@
 # pine-script-mode [![Build Status](https://travis-ci.org/EricCrosson/pine-script-mode.svg?branch=master)](https://travis-ci.org/EricCrosson/pine-script-mode)
 
-> GNU Emacs major-mode for [Trading View](https://tradingview.com) Pine script
+> GNU Emacs major-mode for [Trading View](https://tradingview.com) [Pine script](https://www.tradingview.com/study-script-reference/).
 
 ## Install
 
