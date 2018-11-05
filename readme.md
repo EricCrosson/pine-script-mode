@@ -19,6 +19,18 @@ Or manually, after downloading into your `load-path`
 (add-to-list 'auto-mode-alist '("\\.pine$" . pine-script-mode))
 ```
 
+## Example
+
+Here is a buffer displaying the script
+[CM\_Pivot\_Points\_Custom](https://www.tradingview.com/script/8J7SSNmo-CM-Pivot-Points-Custom/).
+
+![Rendered example](https://raw.githubusercontent.com/EricCrosson/pine-script-mode/add-demo-to-readme/img/demo.png)
+
+The buffer in this image is also using
+
+- [nord-theme](https://emacsthemes.com/themes/nord-theme.html)
+- [rainbow-mode](https://elpa.gnu.org/packages/rainbow-mode.html)
+
 ## License
 
 GPL 2 (or higher) © [Free Software Foundation, Inc](http://www.fsf.org/about).
