@@ -121,7 +121,7 @@
   "A major mode for editing Trading View Pine scripts."
   (set (make-local-variable 'comment-start) "//")
   (set (make-local-variable 'comment-start-skip) "//+ *")
-  (set (make-local-variable 'font-lock-defaults) '(pine-script-font-lock-keywords)))
+  (set 'font-lock-defaults '(pine-script-font-lock-keywords)))
 
 
 
