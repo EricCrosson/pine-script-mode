@@ -1,4 +1,4 @@
-# pine-script-mode [![Build Status](https://travis-ci.org/EricCrosson/pine-script-mode.svg?branch=master)](https://travis-ci.org/EricCrosson/pine-script-mode) [![MELPA](https://melpa.org/packages/pine-script-mode-badge.svg)](https://melpa.org/#/pine-script-mode)
+# pine-script-mode [![Build Status](https://travis-ci.org/EricCrosson/pine-script-mode.svg?branch=master)](https://travis-ci.org/EricCrosson/pine-script-mode) [![MELPA](https://melpa.org/packages/pine-script-mode-badge.svg)](https://melpa.org/#/pine-script-mode) [![MELPA Stable](https://stable.melpa.org/packages/pine-script-mode-badge.svg)](https://stable.melpa.org/#/pine-script-mode)
 
 > GNU Emacs major-mode for [Trading View](https://tradingview.com) Pine script
 
