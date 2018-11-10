@@ -9,6 +9,7 @@ From [MELPA](https://melpa.org/)
 ```lisp
 (use-package pine-script-mode
   :ensure t
+  :pin melpa-stable
   :mode (("\\.pine" . pine-script-mode)))
 ```
 
