@@ -122,7 +122,7 @@
                     "yloc.belowbar" "yloc.price") `words)
      (0 font-lock-function-name-face))
     (,(regexp-opt '("abs" "alert" "alertcondition" "alma" "array.avg" "array.clear"
-                    "array.concat" "array.copy" "array.covariance" "array.fill" "array.get"
+                    "array.concat" "array.copy" "array.covariance" "array.fill" "array.from" "array.get"
                     "array.includes" "array.indexof" "array.insert" "array.join"
                     "array.lastindexof" "array.max" "array.median" "array.min" "array.mode"
                     "array.new_bool" "array.new_color" "array.new_float" "array.new_int"
@@ -131,7 +131,8 @@
                     "array.shift" "array.size" "array.slice" "array.sort" "array.standardize"
                     "array.stdev" "array.sum" "array.unshift" "array.variance" "asin" "atan"
                     "atr" "avg" "barcolor" "barssince" "bb" "bbw" "bgcolor" "bool" "cci"
-                    "ceil" "change" "cmo" "cog" "color" "color.new" "correlation" "cos"
+                    "ceil" "change" "cmo" "cog" "color" "color.b" "color.from_gradient" 
+                    "color.g" "color.new" "color.r" "color.rgb" "color.t" "correlation" "cos"
                     "cross" "crossover" "crossunder" "cum" "dayofmonth" "dayofweek" "dev"
                     "dividends" "dmi" "earnings" "ema" "exp" "falling" "fill" "financial"
                     "fixnan" "float" "floor" "heikinashi" "highest" "highestbars" "hline"
