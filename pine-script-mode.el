@@ -53,7 +53,7 @@
 (defvar pine-script-font-lock-keywords
   `(("$$(\\s *\\w+\\s *)" (0 font-lock-function-name-face t))
     ("$$\\[\\s *\\w+\\s *\\]" (0 font-lock-function-name-face t))
-    (,(regexp-opt '("float" "int" "bool" "string" "color") `words)
+    (,(concat "^" (regexp-opt '("float" "int" "bool" "string" "color") `words))
        (0 font-lock-type-face))   
     (,(regexp-opt '("accdist" "adjustment.dividends" "adjustment.none" "adjustment.splits"
                     "alert.freq_all" "alert.freq_once_per_bar" "alert.freq_once_per_bar_close"
