@@ -45,8 +45,19 @@
     ;; C++ style comment “// …”
     (modify-syntax-entry ?\/ ". 12b" table)
     (modify-syntax-entry ?\n "> b" table)
-    ;; Single-quotes count as strings
-    (modify-syntax-entry ?' "\"" table)
+    ;; Single and double quotes count as strings
+    (modify-syntax-entry ?' "\"\'" table)
+    (modify-syntax-entry ?\" "\"\"" table) 
+    ;; Fix various operators and punctuation.
+    (modify-syntax-entry ?&  "." table)
+    (modify-syntax-entry ?|  "." table)
+    ;; Parenthesis, braces and brackets
+    (modify-syntax-entry ?\( "()" table)
+    (modify-syntax-entry ?\) ")(" table)
+    (modify-syntax-entry ?\{ "(}" table)
+    (modify-syntax-entry ?\} "){" table)
+    (modify-syntax-entry ?\[ "(]" table)
+    (modify-syntax-entry ?\] ")[" table)
     table)
   "Syntax table for `pine-script-mode'.")
 
