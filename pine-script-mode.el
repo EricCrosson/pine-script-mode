@@ -64,6 +64,8 @@
 (defvar pine-script-font-lock-keywords
   `(("$$(\\s *\\w+\\s *)" (0 font-lock-function-name-face t))
     ("$$\\[\\s *\\w+\\s *\\]" (0 font-lock-function-name-face t))
+    (,(regexp-opt '("and" "else" "false" "for" "if" "not" "or" "true" "var" "varip") `words)
+       (0 font-lock-keyword-face))
     (,(concat (regexp-opt '("float" "int" "bool" "string" "color") `words) "[^\.\\|\\(\\|=]")
         (0 font-lock-type-face))
     (,(regexp-opt '("accdist" "adjustment.dividends" "adjustment.none" "adjustment.splits"
