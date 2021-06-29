@@ -29,14 +29,20 @@
 ;;
 ;; Add the following to your .emacs to install:
 ;;
-;; (require 'pine-script-mode)
-;; (add-to-list 'auto-mode-alist '("\\.pine$" . pine-script-mode))
+;; Pine script mode automatically loads for ".pine" files 
 ;;
+;; (require 'pine-script-mode)
+;; 
 ;; or:
 ;;
 ;; (use-package pine-script-mode
-;;   :ensure t
-;;   :mode ("\\.pine\\'"))
+;;   :ensure t)
+;; 
+;; or:
+;; 
+;; (straight-use-package
+;;   '(pine-script-mode :type git :host github :repo "EricCrosson/pine-script-mode"))
+;; 
 
 ;;; Code:
 
@@ -209,6 +215,9 @@
   (set (make-local-variable 'comment-start) "//")
   (set (make-local-variable 'comment-start-skip) "//+ *")
   (set 'font-lock-defaults '(pine-script-font-lock-keywords)))
+
+;;;###autoload
+(add-to-list 'auto-mode-alist '("\\.pine\\'" . pine-script-mode))
 
 (provide 'pine-script-mode)
 ;;; pine-script-mode.el ends here
