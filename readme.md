@@ -24,17 +24,17 @@ Or manually, after downloading into your `load-path`
 (add-to-list 'auto-mode-alist '("\\.pine$" . pine-script-mode))
 ```
 
-## Example
+## Example of Syntax highlighting
 
 Here is a buffer displaying the script
-[CM\_Pivot\_Points\_Custom](https://www.tradingview.com/script/8J7SSNmo-CM-Pivot-Points-Custom/).
+[Volume Footprint [LUX]](https://www.tradingview.com/v/cdU6E9rm/) by [LuxAlgo](https://www.tradingview.com/u/LuxAlgo/).
 
-![Rendered example](https://raw.githubusercontent.com/EricCrosson/pine-script-mode/master/img/demo.png)
+![Rendered example](https://raw.githubusercontent.com/EricCrosson/pine-script-mode/master/img/luxalgo-demo.png)
 
-The buffer in this image is also using
+The Emacs 28 buffer in this image is also using 
 
-- [nord-theme](https://emacsthemes.com/themes/nord-theme.html)
-- [rainbow-mode](https://elpa.gnu.org/packages/rainbow-mode.html)
+- [Modus Vivendi Theme](https://gitlab.com/protesilaos/modus-themes/)
+
 
 ## License
 
