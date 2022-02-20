@@ -3,7 +3,7 @@
 > GNU Emacs major-mode for [Trading View](https://tradingview.com) [Pine script](https://www.tradingview.com/study-script-reference/).
 
 
-`Update: 6.10.2021:` Pine Script Version 5 support will be added over coming weeks.
+`Update: 20.02.2022:` Pine Script Version 5 support will be added soon, ironing out kinks
 
 
 ## Install
