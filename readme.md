@@ -10,7 +10,7 @@
 
 From [MELPA](https://melpa.org/)
 
-```lisp
+```elisp
 (use-package pine-script-mode
   :ensure t
   :pin melpa-stable
@@ -19,7 +19,7 @@ From [MELPA](https://melpa.org/)
 
 Or manually, after downloading into your `load-path`
 
-```lisp
+```elisp
 (require 'pine-script-mode)
 (add-to-list 'auto-mode-alist '("\\.pine$" . pine-script-mode))
 ```
@@ -31,10 +31,10 @@ Here is a buffer displaying the script
 
 ![Rendered example](https://raw.githubusercontent.com/EricCrosson/pine-script-mode/master/img/luxalgo-demo.png)
 
-The Emacs 28 buffer in this image is also using 
+The Emacs 28 buffer in this image is also using:
 
 - [Modus Vivendi Theme](https://gitlab.com/protesilaos/modus-themes/)
-
+- JetBrains Mono font
 
 ## License
 
