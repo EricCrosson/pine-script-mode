@@ -2,6 +2,8 @@
 
 > GNU Emacs major-mode for [Trading View](https://tradingview.com) [Pine Script Docs](https://www.tradingview.com/pine-script-docs/).
 
+![alt text](<img/2025-08-11 00_11_54-.png>)
+
 **Pine Script Version 6 supported**
 
 ## Install
