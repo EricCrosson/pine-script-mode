@@ -94,6 +94,10 @@
      (1 font-lock-keyword-face nil t)
      (2 font-lock-function-name-face))
 
+    ;; Ternary operators ? and :
+    ("\\([?]\\)\\s-*[^:]*\\s-*\\([:]\\)" 
+     (1 font-lock-keyword-face)
+     (2 font-lock-keyword-face))
 
     ;; Constants
     (,(regexp-opt '(
