@@ -1,9 +1,9 @@
-;;; pine-script-mode.el --- Major mode for TradingView Pine Script v6
+;;; pine-script-mode.el --- Major mode for TradingView Pine Script v6 and older -*- lexical-binding: t; -*-
 ;;
 ;;; Copyright (C) 2018  Free Software Foundation, Inc.
 ;;
 ;;; Author: Eric Crosson <eric.s.crosson@utexas.edu>
-;; Version: 3.5.3
+;; Version: 3.5.4
 ;; Keywords: extensions
 ;; Package-Requires: ((emacs "24"))
 ;; URL: https://github.com/ericcrosson/pine-script-mode
@@ -25,7 +25,7 @@
 ;;
 ;;; Commentary:
 ;;
-;; Provides a comprehensive major mode for editing TradingView Pine Script v6 files.
+;; Provides a comprehensive major mode for editing TradingView Pine Script v6 and older files.
 ;; It correctly highlights variables, constants, functions, methods, types,
 ;; keywords, and annotations based on the v6 syntax.
 ;;
